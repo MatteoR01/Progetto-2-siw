@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lan=it xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	
+	<!-- logo -->
+	<title>Progetto Gestione Ristoranti</title>
+	<link rel="stylesheet" th:href="@{css/style.css}">
+	<link th:href="@{css/base.css}" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<!--Font 1-->
+	<link
+		<href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet"> 
+		
+	<!--Font 2-->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100&display=swap"
+		rel="stylesheet">
+</head>
+
+<div class="hero">
+	<div class="hero__content">
+		<h1 class="big-text">Progetto Gestione Ristoranti</h1>
+	</div>
+</div>
+
+<section id="aboutUs">
+	<div>
+		<h3><br>BENVENUTO!</br></h3>
+		Registrati per poter prenotare un tavolo. Clicca qui sotto!
+		<h3><a th:href="@{/register}">Registrati</a></h3>
+	</div>
+</section>
+
+
+
+</body>
+</html>
